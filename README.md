@@ -134,5 +134,5 @@ for result in results:
 ~~~
 
 
-いい感じじゃんね？
+おお、いい感じ。
 
