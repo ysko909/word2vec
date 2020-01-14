@@ -2,9 +2,15 @@
 
 基本的には[ここ](https://qiita.com/kenta1984/items/93b64768494f971edf86) 参照。
 
+## 環境
+
+- Windows 10
+- Python 3.x
+- Mecab
+
 ## 事前準備
 
-Python環境とMecabがすでにインストールされていることが前提です。PythonはAnacondaでも構わないです。
+前述の通り、Python環境とMecabがすでにインストールされていることが前提です。PythonはAnacondaでも構わないです。
 
 ### コーパスの用意
 
@@ -38,7 +44,7 @@ Python環境とMecabがすでにインストールされていることが前提
 
 ## コーパスの分かち書き
 
-モデルの作成にはgensimというライブラリを利用しました。pipを使えばすぐにインストールできます。が、今回は`conda`を使用しました。特に意味はありません。クセです。
+モデルの作成にはgensimというライブラリを利用しました。pipを使えばすぐにインストールできます。が、今回はAnacondaの環境下だったため、`conda`を使用しました。Anacondaのない環境では、`pip`でインストールすれば問題ありません。
 
 	$ conda install gensim
 
